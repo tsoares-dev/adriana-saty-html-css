@@ -1,9 +1,16 @@
 body {
     color: white;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul{
    display: flex; /*Alinhamento horizontal*/
     justify-content: space-between; /*espaçamento entre os itens*/
-    list-style-type: none;
+    list-style-type: none; /*tirar as marcações da lista*/
+    align-items: center;/*alinhado verticalmente ao centro*/
+    padding: 16px; /*distancia maior entre itens de cima e de baixo*/
+}
+
+a {
+    color: white;
 }
