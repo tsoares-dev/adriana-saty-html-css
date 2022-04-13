@@ -2,3 +2,8 @@ body {
     color: white;
     background-color: black;
 }
+ul{
+   display: flex; /*Alinhamento horizontal*/
+    justify-content: space-between; /*espaçamento entre os itens*/
+    list-style-type: none;
+}
